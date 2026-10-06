@@ -15,4 +15,9 @@
 
 body {
     background-color: var(--sky-blue);
+    background-image: url('images/super-mario-1920x1200.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
