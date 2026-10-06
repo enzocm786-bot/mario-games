@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Super Mario Games</h1>
+        <p>Todos os jogos de Super Mario.</p>
+    </header>
+
+    <main>
+        <section id="filters">
+            <label for="type-filter">Tipo:</label>
+            <select id="type-filter">
+                <option value="all">Todos</option>
+                <option value="2D">2D</option>
+                <option value="3D">3D</option>
+            </select>
+
+            <label for="sort-older">Ordenar por:</label>
+            <select id="sort-older">
+                <option value="release">Data de Lançamento</option>
+                <option value="score">Nota no Metacritic</option>
+            </select>
+        </section>
+
+        <section id="games-list"></section>
+    </main>
+
+    <footer>
+        <p>Projeto de fã, sem fins lucrativos e sem vínculo com a Nintendo.</p>
+    </footer>
+
+    <script src="script.js"></script>        
+</body>
+</html>
